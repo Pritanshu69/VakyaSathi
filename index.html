@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign Language Detector</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+
+        <h1>🤟 VakyaSathi</h1>
+
+        <p class="subtitle">
+            Real-Time Sign Language Recognition System
+        </p>
+
+        <button onclick="init()">
+            Start Recognition
+        </button>
+
+        <div id="webcam-container"></div>
+
+        <div class="prediction-box">
+            <h2 id="prediction">
+                Waiting for gesture...
+            </h2>
+            <div class="footer">
+    Developed using Teachable Machine & TensorFlow.js
+</div>
+        </div>
+
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@teachablemachine/pose@0.8/dist/teachablemachine-pose.min.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+</html>
