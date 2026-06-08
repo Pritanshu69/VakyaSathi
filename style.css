@@ -75,3 +75,28 @@ canvas{
 #prediction{
     font-size:1.8rem;
 }
+@media (max-width: 768px){
+
+    h1{
+        font-size:2rem;
+    }
+
+    .subtitle{
+        font-size:0.95rem;
+        padding:0 10px;
+    }
+
+    button{
+        width:90%;
+        max-width:300px;
+    }
+
+    canvas{
+        width:100% !important;
+        height:auto !important;
+    }
+
+    #prediction{
+        font-size:1.3rem;
+    }
+}
